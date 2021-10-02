@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Mimi's Cake - About</title>
+  <link rel="stylesheet" type="text/css" href="order.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<div id="wrapper">
+
+  <!-- #menu -->
+  <div id="menu" class="container">
+    <ul>
+      <li><a href="index.html">Homepage</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li class="current_page_item"><a href="order.html">Order</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </div>
+  <!-- end #menu -->
+
+  <div id="order" class="container">
+    <div id="forms">
+      <form action="">
+
+        <label for="cake">Select</label>
+        <select id="cake" name="cake">
+          <option style="background:url(images/cake4.jpg); width="50" height="55"" value="white chocolate cake" >White Chocolate Cake</option>
+          <option value="mimosa">Mimosa</option>
+          <option value="omg chocolate">Omg Chocolate</option>
+          <option value="marble cake">Marble Cake</option>
+          <option value="luscious lemon">Luscious Lemon</option>
+          <option value="vanilla with a twist">Vanilla With A Twist</option>          
+        </select>        
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your first name..">
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        <label for="phone">Phone Number</label>
+        <input type="number" id="phone" name="phone" placeholder="Your phone number..">
+        <label for="email">Email</label>
+        <input type="text" id="email" name="email" placeholder="Your email..">
+        
+        </select>
+        <input type="submit" value="Submit"> 
+        <input type="reset" value="Reset"> 
+      </form>
+    </div>
+  </div>
+
+
+  
+
+</div>
+
+<div id="footer-wrapper">
+  <div id="footer" class="container">
+    <h2>Connect with me</h2>
+    <a href="#" class="fa fa-facebook"></a>
+    <a href="#" class="fa fa-youtube"></a>
+    <h4>(713) 555-5555</h4>
+    <h4>mimicake@gmail.com</h4>
+  </div>
+</div>
+
+<div id="copyright" class="container">
+  <h6>Copyright © MimiCake 2018 | Be Happy. Eat Cake.</h6>
+</div>
+
+</body>
+</html>
